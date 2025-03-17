@@ -7,6 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1yj0s_N3CgGDIGVVxiQuwbBQ25tu_CUOC
 """
 
+from google.colab import drive
+drive.mount('/content/drive')
+
+##MAIN CODE##
 !pip install pandas numpy
 import pandas as pd
 
@@ -177,8 +181,7 @@ if __name__ == "__main__":
     print("Best Solution:", best_solution)
     print("Best Cost:", best_cost)
 
-from google.colab import drive
-drive.mount('/content/drive')
+##VISUALIZATION##
 
 import matplotlib.pyplot as plt
 import numpy as np
